@@ -8,6 +8,44 @@ img {
   object-fit: cover;
 }
 
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 20px;
+  padding-block: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.sign-up {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: solid #ffffff 1px;
+  width: 120px;
+}
+
+.sign-up:hover {
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+/*========
+    NAV
+=========*/
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -35,36 +73,44 @@ nav div {
   color: black;
 }
 
-main {
-  display: flex;
-  flex-flow: column;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 20px;
-}
+/*=========== 
+  SECTION ONE
+===========*/
 
 .container.one {
   justify-content: space-evenly;
+  background-color: #e9d599;
 }
 
 .text {
-  width: 500px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 52px;
+  max-width: 500px;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  justify-content: space-around;
 }
 
 .learn-pottery {
   max-width: 500px;
 }
 
+.header-left{
+  text-align: left;
+}
+
+.text .sign-up {
+  margin-left: auto;
+}
+
+.text p {
+  font-size: 18px;
+  color: white;
+  line-height: 30px;
+}
+
+/*=========== 
+  SECTION TWO
+============*/
 .image-card {
   width: 300px;
   height: 300px;
@@ -88,10 +134,57 @@ h1 {
   color: rgb(94, 44, 0);
 }
 
-.header-left{
-  text-align: left;
+/*=============
+  SECTION THREE
+==============*/
+
+.container.three {
+  background-color: grey;
 }
 
+.quote {
+  font-size: 62px;
+  margin: 0px 90px 0px 90px;
+  text-align: center;
+  padding-block: 30px;
+}
+
+.quote-text {
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: end;
+  margin-right: 70px;
+  font-family: "Playfair Display", sans-serif;
+}
+
+/*============
+  SECTION FOUR
+=============*/
+.container.four {
+  background-color:#e9d599;
+  max-width: 800px;
+  margin: 0px auto 100px;
+  border-radius: 5px;
+  align-items: center;
+  gap: 80px;
+}
+
+/*======
+  FOOTER
+=======*/
 footer {
   margin-top: auto;
+  text-align: center;
+  background-color: rgb(106, 77, 9);
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  color: white;
 }
