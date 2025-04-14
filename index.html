@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gidole&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="stylesheets.css">
@@ -8,84 +12,91 @@
 </head>
 <body>
   <!--Nav Bar -->
-  <nav>
-    <img src="images/Logo-pottery.png" alt="logo of the company pottery workshop">
-    <a href="index.html">About Us</a>
-    <a href="index.html">Course Content</a>
-    <a href="index.html">Contact</a>
-  </nav>
-  <!-- First Section Start-->
-  <div>
+  <nav class=>
+    <img src="images/Logo-pottery.png" alt="logo of the company pottery workshop" class="logo">
     <div>
-      <h1>Learn Everythin About Pottery</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatum amet pariatur poss
-      </p>
-      <button>Sign Up</button>
+      <a href="index.html" class="nav-links">About Us</a>
+      <a href="index.html" class="nav-links">Course Content</a>
+      <a href="index.html" class="nav-links">Contact</a>
     </div>
-    <img href="images/pottery.jpg">
-  </div>
-  <!-- First Section End-->
+  </nav>
+
+  <main>
+    <!-- First Section Start-->
+    <div class="main-section one">
+      <div class="container one">
+        <div class="text">
+          <h1 class="header-left">Learn Everything About Pottery</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatum amet pariatur poss
+          </p>
+          <button>Sign Up</button>
+        </div>
+        <img src="images/pottery.jpg" class="learn-pottery">
+      </div>
+    </div>
+    <!-- First Section End-->
 
 
-  <!-- Second Section Start-->
-  <div>
-    <h1>What to Expect From Our Course?</h1>
+    <!-- Second Section Start-->
+    <div class="main-section two">
+      <h1>What to Expect From Our Course?</h1>
 
+      <div class="container">
+        <div class="image-card">
+          <img src="images/pottery1.jpg">
+          <p>Learn to form vessels and other objects with clay and other raw materials.</p>
+        </div>
+        <div class="image-card">
+          <img src="images/pottery2.jpg">
+          <p>Express yourself onto the material at hand.</p>
+        </div>
+        <div class="image-card">
+          <img src="images/pottery3.jpg">
+          <p>Learn to improve your focus and explore your own flow in creation</p>
+        </div>
+        <div class="image-card">
+          <img src="images/pottery4.jpg">
+          <p>Make a product of your own</p>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- Second Section End-->
+
+
+    <!-- Third Section Start-->
     <div class="container">
       <div>
-        <img src="images/pottery1.jpg">
-        <p>Learn to form vessels and other objects with clay and other raw materials.</p>
-      </div>
-      <div>
-        <img src="images/pottery2.jpg">
-        <p>Express yourself onto the material at hand.</p>
-      </div>
-      <div>
-        <img src="images/pottery3.jpg">
-        <p>Learn to improve your focus and explore your own flow in creation</p>
-      </div>
-      <div>
-        <img src="images/pottery4.jpg">
-        <p>Make a product of your own</p>
+        <p class="quote">Clay is a material that is humble and forgiving. It speaks to the human touch.</p>
+        <p class="quote-author">-Beatrice Wood</p>
       </div>
     </div>
+    <!-- Third Section End-->
 
 
-  </div>
-  <!-- Second Section End-->
+    <!-- Fourth Section Start -->
+    <div class="container">
 
+      <div class="call">
+        <div>
+          <p>Call to action! It's time!</p>
+          <p>Sign up to our course by clicking that button right over there!</p>
+        </div>
+      </div>
 
-  <!-- Third Section Start-->
-  <div>
-    <div>
-      <p class="quote">Clay is a material that is humble and forgiving. It speaks to the human touch.</p>
-      <p class="quote-author">-Beatrice Wood</p>
+        <div>
+          <button class="sign-up">Sign Up</button>
+        </div>
+
     </div>
-  </div>
-  <!-- Third Section End-->
-
-
-  <!-- Fourth Section Start -->
-  <div>
-
-    <div class="call">
-      <div>
-        <p>Call to action! It's time!</p>
-        <p>Sign up to our course by clicking that button right over there!</p>
-      </div>
-
-      <div>
-        <button class="sign-up">Sign Up</button>
-      </div>
-
-  </div>
-  <!-- Fourth Section End-->
-
-
-  <footer>
-    <p>© 2025 Can Bilir</p>
-    <a href="https://github.com/CanBilir" target="_blank" rel="noopener noreferrer">Github</a>
-  </footer>
+    <!-- Fourth Section End-->
+  </main>
+    <footer>
+      <p>© 2025 Can Bilir</p>
+      <a href="https://github.com/CanBilir" target="_blank" rel="noopener noreferrer">Github</a>
+    </footer>
+    <img href="images/pottery.jpg">
 </body>
 </html>

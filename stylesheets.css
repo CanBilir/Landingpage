@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9d599;
+  padding: 5px;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+  max-width: 40px;
+}
+
+nav div {
+  margin-right: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.container.one {
+  justify-content: space-evenly;
+}
+
+.text {
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.learn-pottery {
+  max-width: 500px;
+}
+
+.image-card {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.image-card img {
+  width:200px;
+  height: 200px;
+  box-sizing: border-box;
+  border: solid rgb(94, 44, 0) 4px;
+  border-radius: 10px;
+}
+
+.image-card p {
+  margin-top: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Winky Rough", sans-serif;
+  color: rgb(94, 44, 0);
+}
+
+.header-left{
+  text-align: left;
+}
+
+footer {
+  margin-top: auto;
+}
